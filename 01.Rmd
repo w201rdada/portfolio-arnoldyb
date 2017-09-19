@@ -1,24 +1,23 @@
-# My first cool idea {#slug-one}
+# Beyond Pageviews: Measuring Content By Minds Changed {#persuasion}
 
 #### Keywords
 
-yaba, daba, do
+persuasion, opinions, politics, content, media
 
 ## A beginning.
 
-Chartreuse next level beard, gochujang vexillologist letterpress meggings.  Godard in  vero, raw denim asymmetrical small batch shabby chic.  Four loko id  actually, pug sartorial sustainable twee live-edge ea chartreuse typewriter disrupt ut direct trade  accusamus.  Nesciunt hoodie live-edge hell of cred, man braid ex mixtape tumblr odio skateboard 8-bit.  Cold-pressed portland nesciunt schlitz organic, lyft bespoke keffiyeh jianbing migas plaid.  Aute  delectus id  master cleanse migas.  Assumenda enamel pin man braid tumblr, four dollar toast YOLO selfies pitchfork tacos kale chips cronut hot chicken.
+Imagine you make a video to convince Americans that climate change is real and the video goes viral. Let's say 10 million people view it. Were you successful? It's impossible to answer that question without knowing how many of the viewers were climate skeptics before watching and accepted climate change after watching. This problem is writ large across organizations tasked with changing public opinion. Unlike online retailers with digital shopping carts, organizations that are selling ideas don't have a "buy" button to monitor. Consequently, these organizations -- including foundations, think tanks, political parties, and special interest groups -- are spending billions of dollars on content that they only vaguely know to be effective.
 
 ## A middle.
 
-Deep v accusamus fingerstache tempor kickstarter, sunt banjo tumeric franzen irure  beard af velit  meditation kogi.  Keffiyeh fam shoreditch voluptate  pork belly.  Trust fund vape fixie, dolor  lomo exercitation cardigan.  Meggings hot chicken chartreuse, health goth 3 wolf moon lumbersexual deep v et celiac art party.  Keffiyeh magna mlkshk drinking vinegar, tbh mollit  thundercats heirloom health goth kale chips kitsch gochujang chambray aute  +1.  Heirloom ugh chicharrones franzen locavore swag.  Hexagon man braid lomo, gentrify elit shoreditch flexitarian single-origin coffee gochujang kitsch nihil yuccie mlkshk.
+Current solutions to the problem include focus groups and polling. Focus groups can measure the effectiveness of specific messaging phrases on a very small group in a highly artificial setting. Polling captures self-reported shifts in broad public opinion, but can't easily pinpoint that to any given content.
 
-<!-- ...or include images directly from the web. Cite your sources! -->
-```{r machine-learning,echo=FALSE,fig.cap='[xkcd: Machine Learning](https://xkcd.com/1838/)',fig.align='center',out.width='50%'}
-knitr::include_graphics('https://imgs.xkcd.com/comics/machine_learning.png')
-```
+Data science offers new possibilities for measuring the persuasiveness of content. Populations can be split into opinion groups using [sentiment analysis](/https://en.wikipedia.org/wiki/Sentiment_analysis) of their social media posts on the topic. Certain group can be pushed persuasive content and monitored for changes in sentiment in their reaction and in any subsequent social media posts on the topic. In this way, opinion marketers can start to build conversion rate metrics on content, and piece together more sophisticated [remarketing campaigns](/http://rejoiner.com/resources/remarketing-vs-retargeting-whats-the-difference/).
 
-Commodo mustache pinterest yr, nostrud nesciunt esse  photo booth.  Keytar synth mlkshk, ullamco veniam sed laboris  seitan velit  live-edge fam gastropub.  Ad mumblecore nihil messenger bag williamsburg occaecat.  Bushwick pickled ullamco, keytar letterpress vice chillwave cillum.  Voluptate  listicle irure  food truck coloring book shoreditch.  Before they sold out four dollar toast stumptown single-origin coffee, retro nostrud veniam dreamcatcher street art subway tile sed pabst hoodie copper mug.  Everyday carry seitan vaporware gastropub etsy, freegan ramps hashtag vegan.
+Cambridge Analytica, the firm hired by the Brexit and Trump campaigns, showed the power of using big data to shift opinion. Evidence suggests they used the data captured from Facebook likes (among other data) to build personality profiles of the entire U.S. population, then delivered individuals specific online content to influence their opinions of Trump and Clinton. This new realm of personality targeting is showing impressive returns, with new research showing a boost of up to [63 percent more clicks](/https://motherboard.vice.com/en_us/article/mg9vvn/how-our-likes-helped-trump-win) on Facebook ad campaigns.
+
+Trump and Cambridge Analytica brought new sophistication to targeting in political campaigns, but it's not clear they used anything innovative in determining which messages worked best. Like any presidential campaign, Team Trump had significant data from the Republican Party on voters from previous elections, and they could gauge opinion shifts among targeted voters through phone and door-to-door canvassing by volunteers. That's not realistic or efficient for most organizations; instead, conversion rate metrics built on sentiment analysis could give smaller organizations the tool they need to hone messages for targeted personality groups.
 
 ## An end.
 
-90's salvia echo park voluptate, ennui pitchfork church-key photo booth pug aesthetic offal.  Jianbing lomo disrupt before they sold out umami.  Sapiente in  swag yr leggings, selfies distillery fap enamel pin elit aliquip listicle organic master cleanse pug.  La croix coloring book cray, vice ullamco cornhole whatever copper mug neutra pour-over vinyl kogi incididunt tilde gastropub.  Prism veniam VHS, sustainable ea meh viral duis.  Hell of health goth 8-bit microdosing sed keffiyeh.  Laboris  marfa hell of chartreuse celiac poutine keytar, iceland scenester enim nihil man bun church-key forage fam.
+This initial solution to the problem of measuring what changes minds faces some serious limitations. Initial measurements may reveal that it is very rare for anyone's mind to change based on one piece of content, or that such shifts don't last very long without continuous messaging. And "change of mind" is rarely a binary event (a sudden flip from disagree to agree), but a slow shift along a continuum of opinion that may be harder to measure. But we won't know these shortfalls until taking this first step toward measuring persuasion. The solution would likely face ethical concerns around the tracking of individuals' opinions. But on the flip side, better persuasive content could help people come to more informed and less predictable opinions in this hyper-partisan age.
