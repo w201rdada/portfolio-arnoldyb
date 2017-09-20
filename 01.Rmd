@@ -1,4 +1,4 @@
-# Beyond Pageviews: Measuring Content By Minds Changed {#persuasion}
+# Winning Over Public Opinion By Measuring Minds Changed {#persuasion metrics}
 
 #### Keywords
 
@@ -6,7 +6,7 @@ persuasion, opinions, politics, content, media
 
 ## A beginning.
 
-Imagine you make a video to convince Americans that climate change is real and the video goes viral. Let's say 10 million people view it. Were you successful? It's impossible to answer that question without knowing how many of the viewers were climate skeptics before watching and accepted climate change after watching. This problem is writ large across organizations tasked with changing public opinion. Unlike online retailers with digital shopping carts, organizations that are selling ideas don't have a "buy" button to monitor. Consequently, these organizations -- including foundations, think tanks, political parties, and special interest groups -- are spending billions of dollars on content that they only vaguely know to be effective.
+Imagine you make a video to convince Americans that climate change is real and the video goes viral. Let's say 10 million people view it. Were you successful? It's impossible to answer that question without knowing how many of the viewers were climate skeptics before watching and accepted climate change after watching. This problem is writ large across organizations tasked with changing public opinion. Unlike online retailers with digital shopping carts, organizations that are selling ideas don't have a "buy" button to monitor. Consequently, these organizations -- including foundations, think tanks, political parties, and special interest groups -- are spending big money on content that they only vaguely know to be effective.
 
 ## A middle.
 
