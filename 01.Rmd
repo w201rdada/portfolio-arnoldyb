@@ -1,28 +1,27 @@
-# Winning Over Public Opinion By Measuring Minds Changed {#persuasion metrics}
-
+# Winning Over Public Opinion By Measuring Minds Changed {#persuasion-metrics}
+<!-- great title! -->
 #### Keywords
 
 persuasion, opinions, politics, content, media
-
+<!-- add tech keywords -->
 ## Going beyond viewership
-
+<!-- Fine, but read the headings by themselves. Do they also provide a synopsis? -->
 Imagine you make a video to convince Americans that climate change is real and the video goes viral. Let's say 10 million people view it. Were you successful? It's impossible to answer that question without knowing how many of the viewers were climate skeptics before watching and accepted climate change after watching. This problem is writ large across organizations tasked with changing public opinion. Unlike online retailers with digital shopping carts, organizations that are selling ideas don't have a "buy" button to monitor. Consequently, these organizations -- including foundations, think tanks, political parties, and special interest groups -- are spending big money on content that they only vaguely know to be effective.
-
+<!-- Pure numbers can be justified with some heavy assumptions. Indeed big numbers become even more important the weaker the effect.-->
+<!-- What kinds of buttons do they already have, or already use? -->
 ## Using sentiment analysis 
-
+<!-- This section is about more than sentiment analysis. Indeed you'll want more than one method. -->
 Current solutions to the problem include focus groups and polling. Focus groups can measure the effectiveness of specific messaging phrases on a very small group in a highly artificial setting. Polling captures self-reported shifts in broad public opinion, but can't easily pinpoint that to any given content.
-
+<!-- Polling could implement a pre-post within person design. -->
 Cambridge Analytica, the firm hired by the Brexit and Trump campaigns, showed the potential of using big data to shift opinion through better audience targeting. Evidence suggests they used the data captured from Facebook likes to build personality [profiles of the entire U.S. population](/https://motherboard.vice.com/en_us/article/mg9vvn/how-our-likes-helped-trump-win), then delivered individuals specific online content to influence their opinions of Trump and Clinton. However, it's not clear they used anything innovative in determining which messages worked best -- instead, they could draw on the massive infrastructure of a national campaign with volunteers to check in on voters and get a rough sense of what worked. 
 
-I see a tremendous opportunity to go further with data science to actually measure the persuasiveness of content. Populations can be split into opinion groups using [sentiment analysis](/https://en.wikipedia.org/wiki/Sentiment_analysis) of their social media posts on the topic. Certain group can be pushed persuasive content and monitored for changes in sentiment in their reaction and in any subsequent social media posts on the topic. In this way, opinion marketers can start to build conversion rate metrics on content, and piece together more sophisticated [remarketing campaigns](/http://rejoiner.com/resources/remarketing-vs-retargeting-whats-the-difference/).
-
+I see a tremendous opportunity to go further with data science to actually measure the persuasiveness of content. <!-- Subtle shift in unit of analysis. --> Populations can be split into opinion groups using [sentiment analysis](/https://en.wikipedia.org/wiki/Sentiment_analysis) of their social media posts on the topic. A certain group can be pushed persuasive content and monitored for changes in sentiment in their reaction and in any subsequent social media posts on the topic. In this way, opinion marketers can start to build conversion rate metrics on content, and piece together more sophisticated [remarketing campaigns](/http://rejoiner.com/resources/remarketing-vs-retargeting-whats-the-difference/).
+<!-- How is social media policy changing to help or hinder such efforts? -->
 ## A future with better arguments
-
+<!-- better manipulation? consider unintended consequences -->
 This initial solution to the problem of measuring what changes minds faces some serious limitations. Initial measurements may reveal that it is very rare for anyone's mind to change based on one piece of content, or that such shifts don't last very long without continuous messaging. And "change of mind" is rarely a binary event (a sudden flip from disagree to agree), but a slow shift along a continuum of opinion that may be harder to measure. But we won't know these shortfalls until taking this first step toward measuring persuasion. 
-
-The solution would likely face ethical concerns around the tracking of individuals' opinions, though less so if the information is used purely to persuade rather than exclude or penalize. 
+<!-- You're taking a tacitly cynical stance on democratic ethics. -->
+The solution would likely face ethical concerns around the tracking of individuals' opinions, though less so if the information is used purely to persuade rather than to exclude or penalize. 
 
 Any metrics tools that get developed around persuasion would eventually spread to both sides of any given issue, so ultimately the data wouldn't result in any longlasting advantages to the first-movers. Instead, the metrics should help issue advocates argue better by clarifying misunderstandings and illuminating areas of real disagreement that need negotiation. The data could also save money for issue advocates who could determine that persuasion campaigns do not have the results to justify the expenditure. 
-
-
-
+<!-- How to avoid a race to the bottom? -->
