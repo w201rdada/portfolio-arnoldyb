@@ -2,7 +2,7 @@
 
 #### Keywords
 
-Natural language processing, crowd-sourcing, prediction analysisyaba, daba, do
+Natural language processing, crowd-sourcing, prediction analysis
 
 ## Sports opinions abound, reliability metrics are scarce
 
@@ -25,7 +25,7 @@ For example, John Doe is a pundit who has previously made one correct prediction
 
 There are many areas of life where people make predictions. Fantasy sports provides one of the easiest areas to determine pundit reliability given the abundance of predictions, their short time intervals, and the motivation of consumers to care about reliability. Personally, I’m not all that interested in sports. I am interested in improving the information landscape. I could see the tactics developed here eventually migrated over to political punditry, investing forecasts, business risk intelligence, and government intelligence. 
 
-This model only works with predictions that can be treated as binary, so that leaves out a good deal of nuanced or quantitative forecasting. The model will have to decide how to treat conditionals such as “The U.S. economy <b>could<b> grow by 4 percent this year.” (I would argue “could” should be treated like a “will.”) 
+This model only works with predictions that can be treated as binary, so that leaves out a good deal of nuanced or quantitative forecasting. The model will have to decide how to treat conditionals such as “The U.S. economy <b>could</b> grow by 4 percent this year.” (I would argue “could” should be treated like a “will.”) 
 
 An additional complication: If this tool grew popular, pundits might begin hedging their predictions in ways that make it harder to measure, or they may start making more “no-brainer” predictions that don’t add value. 
 
