@@ -1,25 +1,32 @@
-# My second cool idea {#slug-two}
+# Fantasy Sports: Helping Players Up Their Game by Grading Pundits on Reliability {#prediction-accuracy}
 
 #### Keywords
 
-yaba, daba, do
+Natural language processing, crowd-sourcing, prediction analysisyaba, daba, do
 
-## A beginning.
+## Sports opinions abound, reliability metrics are scarce
 
-Nulla  sint  art party ex, mlkshk disrupt selvage 90's.  Umami sed slow-carb, fugiat  dolore nihil glossier magna migas actually farm-to-table microdosing keytar fixie.  IPhone fashion axe pinterest, cardigan street art quinoa banh mi bitters mollit  commodo pok pok culpa  delectus ut air plant.  Offal edison bulb ex, celiac 8-bit vaporware polaroid thundercats flannel kickstarter labore.  Activated charcoal portland af tousled microdosing woke, in  thundercats consectetur gluten-free hammock duis  next level DIY.  Keffiyeh commodo velit  mollit  brunch, cronut edison bulb banh mi swag stumptown crucifix hell of.  Brunch williamsburg try-hard, seitan literally vexillologist venmo DIY pariatur nesciunt master cleanse XOXO.
+The fantasy sports industry now represents a $36 billion market in the U.S. and Canada, with roughly a tenth of that in publishing. Much of the published material contains predictions by pundits about how various players will perform in the coming week and season. Players looking for advice have no shortage of places to turn, but they also have few ways to know which pundit has a good track record of making correct predictions. 
 
-## A middle.
+Similar to the “fake news” problem in the general news space, fantasy players lack tools to gauge the accuracy and reliability of what they are reading -- in this case about future events, rather than current events. Fantasy sports players stand to make more money if they play their games better, meaning they would have an incentive to pay for a tool that helps them improve their information intake. 
 
-8-bit synth irony nisi wolf, street art dreamcatcher flannel placeat selvage health goth sriracha.  Glossier labore ex venmo, cillum  live-edge jianbing everyday carry af cray laborum incididunt eiusmod jean shorts.  Normcore slow-carb lyft letterpress, beard tilde art party.  Poke marfa incididunt tempor duis.  Iceland fam ex beard, activated charcoal vaporware nesciunt lyft cronut four dollar toast irony.  Officia  stumptown voluptate  unicorn culpa  bushwick.  Mollit  vero af marfa deserunt  flexitarian.
+## Scrape predictions, crowdsource their accuracy
 
+Currently, fantasy players do have some limited ways to gauge the accuracy of forecasters. Those pundits who make systematic, numerical-only projections across a full set of players can be graded relatively simply -- and there are a few (self-interested) services out there doing so. Many predictions, however, do not fit this mold but are less systematic, focused on just one player, or more qualitative in nature. These predictions are often more interesting as they are offered in the course of conversations between pundits or explained in engaging writeups rather than data tables.
+ 
+I am proposing a way to measure the reliability of pundits making these less structured forecasts:
+1) Use natural language processing to scan sports websites and broadcast transcripts to search for predictions. A prediction must include: a person making the prediction, a timeframe, a binary outcome. 
+2) Show the predictions immediately to players, along with any reliability measure of the pundit. 
+3) When each prediction comes due, let players weigh in whether the prediction was correct (binary: true / false). If a critical mass of players agree, rate the prediction as true or false and update the pundit’s reliability score. 
 
-```{r experimental,echo=F,results='asis',eval=F}
-data.table::fread('https://raw.githubusercontent.com/UCB-MIDS/experiments-causality/master/data/GerberGreenBook_Chapter3_Donations.csv?token=ABNmuX-Q14rzQ4teItDenc9L5Wo2flncks5ZL5qEwA%3D%3D') %>% stargazer::stargazer(type = 'html',title = 'Something from W241 Experiments and Causality')
-```
+For example, John Doe is a pundit who has previously made one correct prediction and four incorrect predictions. He writes that Tom Brady will throw no touchdowns in next Sunday’s game. The prediction is saved to a database and shown to fantasy players who have picked Tom Brady as a player, along with a note that John Doe is right 20% of the time. After next week’s game, players are shown the prediction again to rate it true or false. Ten people rate the prediction true and so John Doe’s reliability rating goes to 33%.
 
+## Clean up the information ecosystem, for sports and beyond
 
-Laborum williamsburg sunt whatever, DIY reprehenderit  retro vaporware id  hella flannel sartorial vero fugiat  before they sold out.  Copper mug salvia keffiyeh, neutra nostrud iceland keytar kogi church-key quinoa ramps mlkshk.  Seitan mollit  3 wolf moon, forage shabby chic cillum  church-key tofu exercitation aliquip.  Church-key distillery flexitarian meh incididunt retro, ugh wolf selvage hashtag.  Bicycle rights 90's officia  vape.  Listicle post-ironic vape ex.  Gluten-free lomo tumeric, yuccie everyday carry tempor put a bird on it knausgaard nisi ugh skateboard VHS.
+There are many areas of life where people make predictions. Fantasy sports provides one of the easiest areas to determine pundit reliability given the abundance of predictions, their short time intervals, and the motivation of consumers to care about reliability. Personally, I’m not all that interested in sports. I am interested in improving the information landscape. I could see the tactics developed here eventually migrated over to political punditry, investing forecasts, business risk intelligence, and government intelligence. 
 
-## An end.
+This model only works with predictions that can be treated as binary, so that leaves out a good deal of nuanced or quantitative forecasting. The model will have to decide how to treat conditionals such as “The U.S. economy <b>could<b> grow by 4 percent this year.” (I would argue “could” should be treated like a “will.”) 
 
-Kombucha pok pok lomo, forage bicycle rights paleo kickstarter literally.  Hot chicken dolor  vegan accusamus master cleanse tousled, yuccie cliche retro aesthetic bushwick actually.  Ennui viral VHS pitchfork pop-up cornhole, nihil quinoa scenester gentrify occaecat  YOLO anim.  Umami copper mug live-edge, air plant meditation bushwick chartreuse adipisicing tousled.  Art party affogato chicharrones, photo booth enim swag vero meh seitan +1 activated charcoal nihil.  Etsy gluten-free authentic mixtape.  Shabby chic duis  90's pop-up pinterest, lumbersexual mollit  cillum.
+An additional complication: If this tool grew popular, pundits might begin hedging their predictions in ways that make it harder to measure, or they may start making more “no-brainer” predictions that don’t add value. 
+
+But, overall, the negatives are outweighed by the promise of greater accountability around prognostication. Pundits who are consistently wrong will finally be called out and weeded out of the information ecosystem. This is a particularly attractive outcome in the political punditry arena. The fools with megaphones who claimed that U.S. troops would be greeted as liberators in Iraq and Hillary Clinton would win in a landslide could be ushered out of the conversation.
