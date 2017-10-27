@@ -6,13 +6,13 @@ Natural language processing, crowd-sourcing, prediction analysis
 
 ## Sports opinions abound, reliability metrics are scarce
 
-The fantasy sports industry now represents a $36 billion market in the U.S. and Canada, with roughly a tenth of that in publishing. Much of the published material contains predictions by pundits about how various players will perform in the coming week and season. Players looking for advice have no shortage of places to turn, but they also have few ways to know which pundit has a good track record of making correct predictions. 
+The fantasy sports industry now represents a [$36 billion market](http://fsta.org/research/industry-demographics/) in the U.S. and Canada, with roughly a tenth of that in publishing. Much of the published material contains predictions by pundits about how various players will perform in the coming week and season. Players looking for advice have no shortage of places to turn, but they also have few ways to know which pundit has a good track record of making correct predictions. 
 
 Similar to the “fake news” problem in the general news space, fantasy players lack tools to gauge the accuracy and reliability of what they are reading -- in this case about future events, rather than current events. Fantasy sports players stand to make more money if they play their games better, meaning they would have an incentive to pay for a tool that helps them improve their information intake. 
 
 ## Scrape predictions, crowdsource their accuracy
 
-Currently, fantasy players do have some limited ways to gauge the accuracy of forecasters. Those pundits who make systematic, numerical-only projections across a full set of players can be graded relatively simply -- and there are a few (self-interested) services out there doing so. Many predictions, however, do not fit this mold but are less systematic, focused on just one player, or more qualitative in nature. These predictions are often more interesting as they are offered in the course of conversations between pundits or explained in engaging writeups rather than data tables.
+Currently, fantasy players do have some limited ways to gauge the accuracy of forecasters. Those pundits who make systematic, numerical-only projections across a full set of players can be graded relatively simply -- and there are a few (self-interested) [services out there](http://fantasyfootballanalytics.net/2016/03/best-fantasy-football-projections-2016-update.html) doing so. Many predictions, however, do not fit this mold but are less systematic, focused on just one player, or more qualitative in nature. These predictions are often more interesting as they are offered in the course of conversations between pundits or explained in engaging writeups rather than data tables.
  
 I am proposing a way to measure the reliability of pundits making these less structured forecasts:
 1) Use natural language processing to scan sports websites and broadcast transcripts to search for predictions. A prediction must include: a person making the prediction, a timeframe, a binary outcome. 
