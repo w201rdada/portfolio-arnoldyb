@@ -21,7 +21,7 @@ I am proposing a way to measure the reliability of pundits making these less str
 2) Show the predictions immediately to players, along with any reliability measure of the pundit. 
 3) When each prediction comes due, let players weigh in whether the prediction was correct (binary: true / false). If a critical mass of players agree, rate the prediction as true or false and update the pundit’s reliability score. 
 
-For example, John Doe is a pundit who has previously made one correct prediction and four incorrect predictions. He writes that Tom Brady will throw no touchdowns in next Sunday’s game. The prediction is saved to a database and shown to fantasy players who have picked Tom Brady as a player, along with a note that John Doe is right 20% of the time. After next week’s game, players are shown the prediction again to rate it true or false. Ten people rate the prediction true and so John Doe’s reliability rating goes to 33%.
+For example, John Doe is a pundit who has previously made one correct prediction and four incorrect predictions. He writes that Tom Brady will throw no touchdowns in next Sunday’s game. The prediction is saved to a database and shown to fantasy players who have picked Tom Brady as a player, along with a note that John Doe is right 20% of the time. After next week’s game, players are shown the prediction again to rate it true or false. Ten people rate the prediction true, no one dissents, and so John Doe’s reliability rating goes to 33%.
 
 ## Clean up the information ecosystem, for sports and beyond
 
