@@ -6,9 +6,11 @@ Natural language processing, crowd-sourcing, prediction analysis
 
 ## Sports opinions abound, reliability metrics are scarce
 
-The fantasy sports industry now represents a [$36 billion market](http://fsta.org/research/industry-demographics/) in the U.S. and Canada, with roughly a tenth of that in publishing. Much of the published material contains predictions by pundits about how various players will perform in the coming week and season. Players looking for advice have no shortage of places to turn, but they also have few ways to know which pundit has a good track record of making correct predictions. 
+The fantasy sports industry now represents a [$36 billion market](http://fsta.org/research/industry-demographics/) in the U.S. and Canada, with roughly a tenth of that in publishing. Much of the published material contains predictions by pundits about how various athletes will perform in the coming week and season. 
 
-Similar to the “fake news” problem in the general news space, fantasy players lack tools to gauge the accuracy and reliability of what they are reading -- in this case about future events, rather than current events. Fantasy sports players stand to make more money if they play their games better, meaning they would have an incentive to pay for a tool that helps them improve their information intake. 
+However, similar to the “fake news” problem in the general news space, fantasy players lack tools to gauge the accuracy and reliability of what they are reading -- in this case about future events, rather than current events. 
+
+How could we measure the track record of correct predictions by various pundits so that players can focus their reading on the most reliable forecasters, and ultimately, play the game better and win more money? 
 
 ## Scrape predictions, crowdsource their accuracy
 
@@ -17,16 +19,16 @@ Currently, fantasy players do have some limited ways to gauge the accuracy of fo
 I am proposing a way to measure the reliability of pundits making these less structured forecasts:
 1) Use natural language processing to scan sports websites and broadcast transcripts to search for predictions. A prediction must include: a person making the prediction, a timeframe, a binary outcome. 
 2) Show the predictions immediately to players, along with any reliability measure of the pundit. 
-3) When each prediction comes due, let players weigh in whether the prediction was correct (binary: true / false). If a critical mass of players agree, rate the prediction as true or false and update the pundit’s reliability score. 
+3) WeBut the problem remains tricky. n each prediction comes due, let players weigh in whether the prediction was correct (binary: true / false). If a critical mass of players agree, rate the prediction as true or false and update the pundit’s reliability score. 
 
 For example, John Doe is a pundit who has previously made one correct prediction and four incorrect predictions. He writes that Tom Brady will throw no touchdowns in next Sunday’s game. The prediction is saved to a database and shown to fantasy players who have picked Tom Brady as a player, along with a note that John Doe is right 20% of the time. After next week’s game, players are shown the prediction again to rate it true or false. Ten people rate the prediction true and so John Doe’s reliability rating goes to 33%.
 
 ## Clean up the information ecosystem, for sports and beyond
 
-There are many areas of life where people make predictions. Fantasy sports provides one of the easiest areas to determine pundit reliability given the abundance of predictions, their short time intervals, and the motivation of consumers to care about reliability. Personally, I’m not all that interested in sports. I am interested in improving the information landscape. I could see the tactics developed here eventually migrated over to political punditry, investing forecasts, business risk intelligence, and government intelligence. 
+There are many areas of life where people make predictions. Fantasy sports provides one of the easiest areas to determine pundit reliability given the abundance of predictions, their short time intervals, and the motivation of consumers to care about reliability. 
 
-This model only works with predictions that can be treated as binary, so that leaves out a good deal of nuanced or quantitative forecasting. The model will have to decide how to treat conditionals such as “The U.S. economy <b>could</b> grow by 4 percent this year.” (I would argue “could” should be treated like a “will.”) 
+But the problem remains tricky, even in this space. This model only works with predictions that can be treated as binary, so that leaves out a good deal of nuanced or quantitative forecasting. The model will have to decide how to treat conditionals such as “The U.S. economy <b>could</b> grow by 4 percent this year.” (I would argue “could” should be treated like a “will.”) 
 
 An additional complication: If this tool grew popular, pundits might begin hedging their predictions in ways that make it harder to measure, or they may start making more “no-brainer” predictions that don’t add value. 
 
-But, overall, the negatives are outweighed by the promise of greater accountability around prognostication. Pundits who are consistently wrong will finally be called out and weeded out of the information ecosystem. This is a particularly attractive outcome in the political punditry arena. The fools with megaphones who claimed that U.S. troops would be greeted as liberators in Iraq and Hillary Clinton would win in a landslide could be ushered out of the conversation.
+However, even if flaws emerged, the tool's usefulness could be easily measured: Take a random sample of fantasy players and a control group and compare their overall scores. If the tool is shown to work for fantasy sports, it could be adapted for more consequential arenas like business risk intelligence, politics, and even government intelligence. Success would be measured in the declining influence or retirement of pundits who are consistently wrong. This is a particularly attractive outcome in the political punditry arena. The fools with megaphones who claimed that U.S. troops would be greeted as liberators in Iraq and Hillary Clinton would win in a landslide could be ushered out of the conversation.
