@@ -8,7 +8,7 @@ Natural language processing, crowd-sourcing, prediction analysis
 
 The fantasy sports industry now represents a [$36 billion market](http://fsta.org/research/industry-demographics/) in the U.S. and Canada, with roughly a tenth of that in publishing. Much of the published material contains predictions by pundits about how various athletes will perform in the coming week and season. 
 
-However, similar to the “fake news” problem in the general news space, fantasy players lack tools to gauge the accuracy and reliability of what they are reading -- in this case about future events, rather than current events. It's tempting to dismiss forecasting as little more than chance masquerading as reason. Researcher Philip Tetlock has found most forecasters to be worthless at their trade -- except for a quire reliable group of "[superforcasters](https://www.washingtonpost.com/news/wonk/wp/2016/01/04/how-to-predict-the-future-better-than-everybody-else/?utm_term=.81864c4dd7c1)."  
+However, similar to the “fake news” problem in the general news space, fantasy players lack tools to gauge the accuracy and reliability of what they are reading -- in this case about future events, rather than current events. It's tempting to dismiss forecasting as little more than chance masquerading as reason. Researcher Philip Tetlock has found that a minority of forecasters really do [outperform dart-throwing chimps](https://www.washingtonpost.com/news/wonk/wp/2016/01/04/how-to-predict-the-future-better-than-everybody-else/?utm_term=.81864c4dd7c1).  
 
 How could we measure the track record of correct predictions by various pundits so that fantasy players can focus their reading on the most reliable forecasters, and ultimately, play the game better and win more money? 
 
