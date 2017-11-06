@@ -1,4 +1,4 @@
-# Fantasy Sports: Helping Players Up Their Game by Grading Pundits on Reliability {#prediction-accuracy}
+# Helping Fantasy Sports Players Up Their Game by Grading Pundits on Reliability {#prediction-accuracy}
 
 #### Keywords
 
@@ -8,9 +8,9 @@ Natural language processing, crowd-sourcing, prediction analysis
 
 The fantasy sports industry now represents a [$36 billion market](http://fsta.org/research/industry-demographics/) in the U.S. and Canada, with roughly a tenth of that in publishing. Much of the published material contains predictions by pundits about how various athletes will perform in the coming week and season. 
 
-However, similar to the “fake news” problem in the general news space, fantasy players lack tools to gauge the accuracy and reliability of what they are reading -- in this case about future events, rather than current events. 
+However, similar to the “fake news” problem in the general news space, fantasy players lack tools to gauge the accuracy and reliability of what they are reading -- in this case about future events, rather than current events. It's tempting to dismiss forecasting as little more than chance masquerading as reason. Researcher Philip Tetlock has found most forecasters to be worthless at their trade -- except for a quire reliable group of "[superforcasters](https://www.washingtonpost.com/news/wonk/wp/2016/01/04/how-to-predict-the-future-better-than-everybody-else/?utm_term=.81864c4dd7c1)."  
 
-How could we measure the track record of correct predictions by various pundits so that players can focus their reading on the most reliable forecasters, and ultimately, play the game better and win more money? 
+How could we measure the track record of correct predictions by various pundits so that fantasy players can focus their reading on the most reliable forecasters, and ultimately, play the game better and win more money? 
 
 ## Scrape predictions, crowdsource their accuracy
 
@@ -18,8 +18,8 @@ Currently, fantasy players do have some limited ways to gauge the accuracy of fo
  
 I am proposing a way to measure the reliability of pundits making these less structured forecasts:
 1) Use natural language processing to scan sports websites and broadcast transcripts to search for predictions. A prediction must include: a person making the prediction, a timeframe, a binary outcome. 
-2) Show the predictions immediately to players, along with any reliability measure of the pundit. 
-3) When each prediction comes due, let players weigh in whether the prediction was correct (binary: true / false). If a critical mass of players agree, rate the prediction as true or false and update the pundit’s reliability score. 
+2) Show the predictions immediately to fantasy players, along with any reliability measure of the pundit. 
+3) When each prediction comes due, let fantasy players weigh in whether the prediction was correct (binary: true / false). If a critical mass of players agree, rate the prediction as true or false and update the pundit’s reliability score. 
 
 For example, John Doe is a pundit who has previously made one correct prediction and four incorrect predictions. He writes that Tom Brady will throw no touchdowns in next Sunday’s game. The prediction is saved to a database and shown to fantasy players who have picked Tom Brady as a player, along with a note that John Doe is right 20% of the time. After next week’s game, players are shown the prediction again to rate it true or false. Ten people rate the prediction true, no one dissents, and so John Doe’s reliability rating goes to 33%.
 
@@ -31,4 +31,4 @@ But the problem remains tricky, even in this space. This model only works with p
 
 An additional complication: If this tool grew popular, pundits might begin hedging their predictions in ways that make it harder to measure, or they may start making more “no-brainer” predictions that don’t add value. 
 
-However, even if flaws emerged, the tool's usefulness could be easily measured: Take a random sample of fantasy players and a control group and compare their overall scores. If the tool is shown to work for fantasy sports, it could be adapted for more consequential arenas like business risk intelligence, politics, and even government intelligence. Success would be measured in the declining influence or retirement of pundits who are consistently wrong. This is a particularly attractive outcome in the political punditry arena. The fools with megaphones who claimed that U.S. troops would be greeted as liberators in Iraq and Hillary Clinton would win in a landslide could be ushered out of the conversation.
+However, even if flaws emerged, the tool's usefulness could be easily measured: Take a random sample of fantasy players and a control group and compare their overall scores. If the tool is shown to work for fantasy sports, it could be adapted for more consequential arenas like business risk intelligence, politics, and even government intelligence. Success would be measured in the declining influence or retirement of pundits who are consistently wrong. This would be a particularly attractive outcome in the political punditry arena. The fools with megaphones who claimed that U.S. troops would be greeted as liberators in Iraq and Hillary Clinton would win in a landslide could be ushered out of the conversation.
