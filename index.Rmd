@@ -1,7 +1,7 @@
 ---
 title: "W201 Portfolio"
-author: "Oski Bear"
-date: "MIDS Summer 2017"
+author: "Ben Arnoldy"
+date: "MIDS Fall 2017"
 site: bookdown::bookdown_site
 documentclass: book
 ---
@@ -43,6 +43,6 @@ Activated charcoal succulents ex, pop-up minim neutra pork belly nulla  helvetic
 
 ## About the author
 
-Ben Arnoldy is managing editor at Earthjustice in San Francisco and a graduate student in UC Berkeley's MIDS program. He spent 17 years in journalism as a reporter, foreign correspondent, editor, producer, and publishing product manager. 
+Ben Arnoldy is managing editor at Earthjustice in San Francisco and a graduate student in UC Berkeley's MIDS program. He spent his first career in journalism as a reporter, foreign correspondent, editor, producer, and publishing product manager. 
 
 *Updated: `r Sys.Date()`*
