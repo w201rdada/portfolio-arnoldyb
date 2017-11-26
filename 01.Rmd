@@ -42,3 +42,30 @@ Do a little more to clarify who your client is. "Advantage" is a stakeholder dep
 Or just decide to be the one who gets there first :)-->
 
 <!-- BA: outline of alternate concept. Evaluate reddit, disqus, twitter, facebook under articles to watch argumentation. Classify where people stand on the issue (looking especially for fence-sitters, then watch as they are exposed to challenging comments. Look for how they react (liking, or positive sentiments in response). Then look to see if they adopt that framing language later. Look to see too if it matters who makes the argument -- if it's the article itself, is the byline famous? If it's a commenter, is it someone they've had long interactions with? Try to get demographics of a list of users from the platforms. -->
+
+
+start with the ethics section
+
+
+
+
+
+The shape of the solution has been heavily influenced by ethical constraints. 
+
+
+Envisioning the outcomes of this 
+
+
+
+This shape of this project has been heavily influenced by what methods 
+
+1. experimental vs observational - draw on the facebook emotion study. 
+2. rather than push a lot of test messaging on unwitting subjects, we instead listen to organic conversation on the Internet. This bottom-up rather than broadcast model seeks to amplify messages from the public square, rather than more top-down propaganda. might invite those who were convinced by an argument and now making it to write on a public platform to a wider audience. testimonials of sorts. 
+3. limiting to rational arguments, with full knowledge that shaping of emotions ahead would yield better results. - draw on the climate change study finding state of anxiety increased change in belief.
+4. personality profiling - if there's really a way to do this without deception, but not sure there is. 
+
+An earlier iteration of this project envisioned 
+
+
+
+
