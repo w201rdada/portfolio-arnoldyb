@@ -44,6 +44,18 @@ Or just decide to be the one who gets there first :)-->
 <!-- BA: outline of alternate concept. Evaluate reddit, disqus, twitter, facebook under articles to watch argumentation. Classify where people stand on the issue (looking especially for fence-sitters, then watch as they are exposed to challenging comments. Look for how they react (liking, or positive sentiments in response). Then look to see if they adopt that framing language later. Look to see too if it matters who makes the argument -- if it's the article itself, is the byline famous? If it's a commenter, is it someone they've had long interactions with? Try to get demographics of a list of users from the platforms. -->
 
 
+
+The goal with this project is to help advocacy organizations amplify arguments that change minds in a certain direction. Such clients have nothing more precious than their reputation, so this solution was designed to avoid ethical pitfalls that have stirred recent controversies.
+
+
+
+
+
+The clients for 
+
+amplifying arguments that change minds. 
+
+
 start with the ethics section
 
 
