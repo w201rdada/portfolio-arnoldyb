@@ -45,28 +45,28 @@ Or just decide to be the one who gets there first :)-->
 
 
 
-The goal with this project is to help advocacy organizations amplify arguments that change minds in a certain direction. Such clients have nothing more precious than their reputation, so this solution was designed to avoid ethical pitfalls that have stirred recent controversies.
+
+The goal with this project is to help advocacy organizations find arguments that change minds in a certain direction. Such clients have nothing more precious than their reputation, so the solution has been designed to adhere to strong ethical standards. Specifically:
+
+1. The solution avoids experimenting with unsuspecting users in favor of observing their expressions on public fora. The data gathering does not rely on the client to push (or take away) messages in front of users as part of a secret experiment, as Facebook did in 2014 with its controversial emotional contagion experiment (Panger, 2014). 
+
+2. Listening to people's conversations -- rather than manipulating the discourse to measure persuasiveness -- shows respect for the notion of a democratic public square (Habbermass, XXX). The algorithm would be uncovering the most persuasive arguments from both published writers and the vast array of commentors on the Internet, leveling the playing field for ideas and drawing from sources with a diversity of motivations rather than from a single propagandist. 
+
+3. The data gathering would be limited to public discussion forums where little is known about users rather than social networks where the psychographics of users are more fully known. This should limit the ability of clients to veer into quick manipulation of Type 1 thinking and keep them focused on winning people engaged in more deliberative Type 2 thinking. In the case of climate change, research has found that climate skeptics are 20% more likely to change over to acceptance if they are feeling anxious. If that research is correct, I expect my solution would highlight textual arguments that makes readers anxious (and, frankly, the facts of climate change should make people anxious) -- but would not pick up on non-textual ways of manipulating the mood of readers before encountering the argument. (RECENT ARTICLE, XX) 
+
+The adoption of certain ethical boundaries likely comes at the cost of discovering some of the most effective messages for changing minds. However, the controversy over "fake news" and Russian social media advertising during the 2016 election highlights a growing public concern over unscrupulous efforts to manipulate opinion online. 
+
+This project points to a way to improve persuasion online that doesn't rely on churning out deceptive copy, invading people's privacy, and undermining democratic discourse. 
 
 
 
 
-
-The clients for 
-
-amplifying arguments that change minds. 
-
-
-start with the ethics section
-
-
-
-
-
-The shape of the solution has been heavily influenced by ethical constraints. 
-
-
-Envisioning the outcomes of this 
-
+http://www.tandfonline.com/doi/abs/10.1080/1369118X.2015.1093525?journalCode=rics20
+“Experimental evidence of massivescale
+emotional contagion through social networks,” by Adam D. I.
+Kramer, Jamie E. Guillory, and Jeffrey T. Hancock, which
+appeared in issue 24, June 17, 2014, of Proc Natl Acad Sci
+USA (111:8788–8790; first publi
 
 
 This shape of this project has been heavily influenced by what methods 
