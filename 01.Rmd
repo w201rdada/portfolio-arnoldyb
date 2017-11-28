@@ -1,10 +1,13 @@
 # Winning Over Public Opinion By Measuring Minds Changed {#persuasion-metrics}
 #### Keywords
 
-persuasion, sentiment analysis, personality profiles, natural language processing, social media
-<!-- BA: one thing I should think about is whether this course has been one long refutation of the very idea of persuasion, particularly those who are not fence-sitters or are somehow persuadable. What persuasion does seem to exist has been presented as manipulation or gaming the cognitive system of people. Also: very interesting concepts from Asynch 11... the notion that you extend an invitation, not an ask.-->
-## Going beyond viewership
-<!-- Fine, but read the headings by themselves. Do they also provide a synopsis? // BA: redo these at the end -->
+persuasion, sentiment analysis, natural language processing, online forums
+
+## Moving beyond focus groups and traffic data
+
+
+
+
 Imagine you make a video to convince Americans that climate change is real and the video goes viral. Let's say 10 million people view it. Were you successful? It's impossible to answer that question without knowing how many of the viewers were climate skeptics before watching and accepted climate change after watching. This problem is writ large across organizations tasked with changing public opinion. Unlike online retailers with digital shopping carts, organizations that are selling ideas don't have a "buy" button to monitor. Consequently, these organizations -- including foundations, think tanks, political parties, and special interest groups -- are spending big money on content that they only vaguely know to be effective.
 <!-- BA: should I simply whittle this down to one specific organization doing this, say Earthjustice, so I don't keep getting the frustrating comment that people aren't sure who would use this, despite iterating this list of types of organizations?-->
 <!-- Pure numbers can be justified with some heavy assumptions. Indeed big numbers become even more important the weaker the effect. // BA: I think Brooks' basic take is that "weak indicator" data is good enough at scale, and "strong indicator" data of focus groups and polls are statistically valid to extend across big populations, so that this problem is already solved in two different ways. What this misses: The "weak indicator" data are very hard for non-technical orgs to know how to interpret, and the "strong indicator" data are too inexpensive and slow for daily decisionmaking by content-makers.-->
@@ -43,40 +46,17 @@ Or just decide to be the one who gets there first :)-->
 
 <!-- BA: outline of alternate concept. Evaluate reddit, disqus, twitter, facebook under articles to watch argumentation. Classify where people stand on the issue (looking especially for fence-sitters, then watch as they are exposed to challenging comments. Look for how they react (liking, or positive sentiments in response). Then look to see if they adopt that framing language later. Look to see too if it matters who makes the argument -- if it's the article itself, is the byline famous? If it's a commenter, is it someone they've had long interactions with? Try to get demographics of a list of users from the platforms. -->
 
+## Avoiding 'manipulation' by staying within ethical boundaries
+The clients for this project -- advocacy organizations -- have nothing more precious than their reputation, so the project is designed to adhere to strong ethical standards. Specifically:
 
+1. The solution avoids experimenting with unsuspecting users in favor of observing their expressions on public fora. The data gathering does not rely on the client to push (or take away) messages in front of users as part of a secret experiment, as Facebook did in 2014 with its controversial [emotional contagion experiment](http://www.tandfonline.com/doi/abs/10.1080/1369118X.2015.1093525?journalCode=rics20). 
 
+2. Listening to people's conversations -- rather than manipulating the discourse to measure persuasiveness -- shows respect for the notion of a [democratic public square](http://courses.ischool.berkeley.edu/i218/s15/calhoun_BPSIntroduction.pdf). The algorithm would be uncovering the most persuasive arguments from both published writers and the vast array of commentors on the Internet, leveling the playing field for ideas and drawing from sources with a diversity of motivations rather than from a single propagandist. 
 
-The goal with this project is to help advocacy organizations find arguments that change minds in a certain direction. Such clients have nothing more precious than their reputation, so the solution has been designed to adhere to strong ethical standards. Specifically:
+3. The data gathering would be limited to public discussion forums where less is known about users rather than social networks where the psychographics of users are more fully known. This should limit the ability of clients to veer into quick manipulation of [Type 1 thinking](https://ericrshelton.com/2015/12/21/type-1-and-type-2-thinking/) and keep them focused on winning people engaged in more deliberative [Type 2 thinking](https://ericrshelton.com/2015/12/21/type-1-and-type-2-thinking/). In the case of climate change, [research has found](http://onlinelibrary.wiley.com/doi/10.1111/pops.12331/abstract) that climate skeptics are 20% more likely to change over to acceptance if they are feeling anxious. If that research is correct, the solution should highlight textual arguments that makes readers anxious (and, frankly, the facts of climate change should make people anxious) -- but would not detect non-textual ways of manipulating the mood of readers before encountering the argument. 
 
-1. The solution avoids experimenting with unsuspecting users in favor of observing their expressions on public fora. The data gathering does not rely on the client to push (or take away) messages in front of users as part of a secret experiment, as Facebook did in 2014 with its controversial emotional contagion experiment (Panger, 2014). 
+The controversy over ["fake news"](https://www.wired.com/2017/02/veles-macedonia-fake-news/) and [Russian social media advertising](http://www.independent.co.uk/news/world/americas/us-politics/facebook-russia-adverts-americans-exposed-trump-us-election-2016-millions-a8028526.html) during the 2016 U.S. election highlights a growing public concern over unscrupulous efforts to [manipulate opinion online](https://motherboard.vice.com/en_us/article/mg9vvn/how-our-likes-helped-trump-win). This project points to a way to improve persuasion online that doesn't rely on churning out deceptive copy, invading people's privacy, and undermining democratic discourse. 
 
-2. Listening to people's conversations -- rather than manipulating the discourse to measure persuasiveness -- shows respect for the notion of a democratic public square (Habbermass, XXX). The algorithm would be uncovering the most persuasive arguments from both published writers and the vast array of commentors on the Internet, leveling the playing field for ideas and drawing from sources with a diversity of motivations rather than from a single propagandist. 
-
-3. The data gathering would be limited to public discussion forums where little is known about users rather than social networks where the psychographics of users are more fully known. This should limit the ability of clients to veer into quick manipulation of Type 1 thinking and keep them focused on winning people engaged in more deliberative Type 2 thinking. In the case of climate change, research has found that climate skeptics are 20% more likely to change over to acceptance if they are feeling anxious. If that research is correct, I expect my solution would highlight textual arguments that makes readers anxious (and, frankly, the facts of climate change should make people anxious) -- but would not pick up on non-textual ways of manipulating the mood of readers before encountering the argument. (RECENT ARTICLE, XX) 
-
-The adoption of certain ethical boundaries likely comes at the cost of discovering some of the most effective messages for changing minds. However, the controversy over "fake news" and Russian social media advertising during the 2016 election highlights a growing public concern over unscrupulous efforts to manipulate opinion online. 
-
-This project points to a way to improve persuasion online that doesn't rely on churning out deceptive copy, invading people's privacy, and undermining democratic discourse. 
-
-
-
-
-http://www.tandfonline.com/doi/abs/10.1080/1369118X.2015.1093525?journalCode=rics20
-“Experimental evidence of massivescale
-emotional contagion through social networks,” by Adam D. I.
-Kramer, Jamie E. Guillory, and Jeffrey T. Hancock, which
-appeared in issue 24, June 17, 2014, of Proc Natl Acad Sci
-USA (111:8788–8790; first publi
-
-
-This shape of this project has been heavily influenced by what methods 
-
-1. experimental vs observational - draw on the facebook emotion study. 
-2. rather than push a lot of test messaging on unwitting subjects, we instead listen to organic conversation on the Internet. This bottom-up rather than broadcast model seeks to amplify messages from the public square, rather than more top-down propaganda. might invite those who were convinced by an argument and now making it to write on a public platform to a wider audience. testimonials of sorts. 
-3. limiting to rational arguments, with full knowledge that shaping of emotions ahead would yield better results. - draw on the climate change study finding state of anxiety increased change in belief.
-4. personality profiling - if there's really a way to do this without deception, but not sure there is. 
-
-An earlier iteration of this project envisioned 
 
 
 
