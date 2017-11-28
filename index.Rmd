@@ -28,10 +28,10 @@ I am interested in the intersection between data science and the media industry.
 knitr::include_url('https://drive.google.com/file/d/0BxfXUVoitaaCaXBMNFlwQ1M1NFU/preview')
 ```
 
-### Abstract:
+### Abstract: Winning Over Public Opinion by Measuring Minds Changed
 Organizations tasked with changing public opinion do not have direct means of measuring the effectiveness of their content. A video might go viral, but that doesn't mean it changed anyone's mind. I propose a new mechanism for measuring the persuasiveness of content that watches over time the social media output of those who consumed the content. When those consumers write about the topic, an algorithm will score how much their sentiment or language differs from a control group. Having this metric of persuasiveness would help issue advocates test and hone their messaging, hopefully encouraging more organizations to move beyond preaching to the choir in a hyperpartisan age.
 
-### Abstract: 
+### Abstract: Helping Fantasy Sports Players up their Game by Grading Pundit Reliability
 Research has found that the majority of experts making forecasts had a track record no better than random chance -- but a minority of pundits were reliably accurate. Identifying those reliable pundits in a relevant field would give an information edge to anyone making bets on future events. I propose a way to build a tool to measure forecaster reliability for the fantasy sports industry. The tool would use natural language processing to extract measurable predictions from the vast output of fantasy sports publishing. As predictions come due, each would be judged for accuracy through crowdsourcing and the pundit's reliability rating would be subsequently moved upward or downward. Lessons learned in the easier arena of fantasy sports could then be applied to more difficult but more consequential arenas such as business risk intelligence, politics, and government intelligence. 
 
 <!--
