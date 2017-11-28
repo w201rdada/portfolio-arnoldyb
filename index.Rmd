@@ -29,16 +29,10 @@ knitr::include_url('https://drive.google.com/file/d/0BxfXUVoitaaCaXBMNFlwQ1M1NFU
 ```
 
 ### Abstract: Winning Over Public Opinion by Measuring Minds Changed
-Organizations tasked with changing public opinion do not have direct means of measuring the effectiveness of their content. A video might go viral, but that doesn't mean it changed anyone's mind. I propose a new mechanism for measuring the persuasiveness of content that watches over time the social media output of those who consumed the content. When those consumers write about the topic, an algorithm will score how much their sentiment or language differs from a control group. Having this metric of persuasiveness would help issue advocates test and hone their messaging, hopefully encouraging more organizations to move beyond preaching to the choir in a hyperpartisan age.
+Organizations tasked with changing public opinion do not have fast or cheap ways to figure out which messages work best. Nor can they easily measure success: A blog post might go viral, but that doesn't mean it changed anyone's mind. I propose a new mechanism for discovering the most persuasive messaging by searching and analyzing online discussions on specific topics. An algorithm will look at individual commenters over the span of years and will conduct sentiment analysis on their posts to find any change of mind. The algorithm will then look for new words or phrases used at the moment of change and trace them back to a source article or comment, in this way identifying persuasive texts. Organizations can use the real-world, real-time trends found in these persuasive texts to replace expensive focus group testing and become better at communicating outside their bubbles.
 
-### Abstract: Helping Fantasy Sports Players up their Game by Grading Pundit Reliability
+### Abstract: Helping Fantasy Sports Gamers by Grading Pundit Reliability
 Research has found that the majority of experts making forecasts had a track record no better than random chance -- but a minority of pundits were reliably accurate. Identifying those reliable pundits in a relevant field would give an information edge to anyone making bets on future events. I propose a way to build a tool to measure forecaster reliability for the fantasy sports industry. The tool would use natural language processing to extract measurable predictions from the vast output of fantasy sports publishing. As predictions come due, each would be judged for accuracy through crowdsourcing and the pundit's reliability rating would be subsequently moved upward or downward. Lessons learned in the easier arena of fantasy sports could then be applied to more difficult but more consequential arenas such as business risk intelligence, politics, and government intelligence. 
-
-<!--
-### Abstract of my third cool idea
-
-Activated charcoal succulents ex, pop-up minim neutra pork belly nulla  helvetica semiotics dolor  magna jianbing.  Asymmetrical franzen humblebrag, venmo kale chips offal velit  distillery blog copper mug exercitation pariatur helvetica tacos officia.  Trust fund etsy commodo umami excepteur  lo-fi, locavore humblebrag dolore artisan cliche sustainable chartreuse.  Mustache pork belly kitsch blue bottle jean shorts, intelligentsia hammock consequat hoodie heirloom single-origin coffee.  Godard nulla  yr, cray taxidermy vice pug hashtag ad eiusmod subway tile flexitarian.  Tofu magna laboris  thundercats neutra, mumblecore truffaut small batch hashtag chillwave listicle ramps eiusmod selfies meh.  Bushwick butcher cupidatat  hella organic.
--->
 
 ## About the author
 
