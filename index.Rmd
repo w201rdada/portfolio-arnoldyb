@@ -16,8 +16,8 @@ library(magrittr)
 # Welcome!
 
 <!-- You can include images saved within your repo... -->
-```{r hello-world,echo=FALSE,fig.cap='Hello World!',fig.align='center',out.width='50%'}
-knitr::include_graphics('img/hello-world.png')
+```{r hello-world,echo=FALSE,fig.cap='Hello World!',fig.align='center',out.width='100%'}
+knitr::include_graphics('img/pope.png')
 ```
 
 I am interested in the intersection between data science and the media industry. Written word communication represents a significant chunk of the world's amassed data. In that data could be the answers to some of the enigmas of our age, including how to persuade climate deniers, how to eradicate fake news, and how to determine who's a reliable pundit. 
