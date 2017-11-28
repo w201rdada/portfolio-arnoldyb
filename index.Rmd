@@ -12,7 +12,7 @@ library(magrittr)
 ```
 
 
-# Welcome! {-}
+# Welcome!
 
 <!-- You can include images saved within your repo... -->
 ```{r hello-world,echo=FALSE,fig.align='center',out.width='1000px'}
