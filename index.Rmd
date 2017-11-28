@@ -35,7 +35,9 @@ Organizations tasked with changing public opinion do not have fast or cheap ways
 Research has found that the majority of experts making forecasts had a track record no better than random chance -- but a minority of pundits were reliably accurate. Identifying those reliable pundits in a relevant field would give an information edge to anyone making bets on future events. I propose a way to build a tool to measure forecaster reliability for the fantasy sports industry. The tool would use natural language processing to extract measurable predictions from the vast output of fantasy sports publishing. As predictions come due, each would be judged for accuracy through crowdsourcing and the pundit's reliability rating would be subsequently moved upward or downward. Lessons learned in the easier arena of fantasy sports could then be applied to more difficult but more consequential arenas such as business risk intelligence, politics, and government intelligence. 
 
 ## About the author
-
+```{r hello-me,echo=FALSE,fig.cap='Arnoldy photo',fig.align='left',out.width='100%'}
+knitr::include_graphics('img/arnoldy.jpg')
+```
 Ben Arnoldy is managing editor at [Earthjustice](www.earthjustice.org) in San Francisco and a graduate student in [UC Berkeley's MIDS program](https://www.ischool.berkeley.edu/programs/mids). He spent his first career in journalism as a reporter, foreign correspondent, editor, producer, and publishing product manager. See his [linkedin profile](www.linkedin.com/in/benarnoldy) for more.
 
 *Updated: `r Sys.Date()`*
