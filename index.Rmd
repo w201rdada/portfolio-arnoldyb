@@ -24,15 +24,14 @@ I am interested in the intersection between data science and the media industry.
 
 <!-- Below this line is just examples of how you can embed video from Google Drive. First you have to enable sharing, then just get the object ID which is that long string between d/ and /preview and will also be appended to any sharing link you generate for your video. -->
 <p>
-```{r hello-benji,echo=FALSE,fig.cap='Hello Benjamin Franklin!',fig.align='center'}
+```{r hello-benji,echo=FALSE,fig.cap='Pitch',fig.align='center'}
 knitr::include_url('https://drive.google.com/file/d/0BxfXUVoitaaCaXBMNFlwQ1M1NFU/preview')
 ```
 
-### Abstract of my first cool idea
+### Abstract:
 Organizations tasked with changing public opinion do not have direct means of measuring the effectiveness of their content. A video might go viral, but that doesn't mean it changed anyone's mind. I propose a new mechanism for measuring the persuasiveness of content that watches over time the social media output of those who consumed the content. When those consumers write about the topic, an algorithm will score how much their sentiment or language differs from a control group. Having this metric of persuasiveness would help issue advocates test and hone their messaging, hopefully encouraging more organizations to move beyond preaching to the choir in a hyperpartisan age.
 
-### Abstract of my second cool idea
-
+### Abstract: 
 Research has found that the majority of experts making forecasts had a track record no better than random chance -- but a minority of pundits were reliably accurate. Identifying those reliable pundits in a relevant field would give an information edge to anyone making bets on future events. I propose a way to build a tool to measure forecaster reliability for the fantasy sports industry. The tool would use natural language processing to extract measurable predictions from the vast output of fantasy sports publishing. As predictions come due, each would be judged for accuracy through crowdsourcing and the pundit's reliability rating would be subsequently moved upward or downward. Lessons learned in the easier arena of fantasy sports could then be applied to more difficult but more consequential arenas such as business risk intelligence, politics, and government intelligence. 
 
 <!--
@@ -43,6 +42,6 @@ Activated charcoal succulents ex, pop-up minim neutra pork belly nulla  helvetic
 
 ## About the author
 
-Ben Arnoldy is managing editor at Earthjustice in San Francisco and a graduate student in UC Berkeley's MIDS program. He spent his first career in journalism as a reporter, foreign correspondent, editor, producer, and publishing product manager. 
+Ben Arnoldy is managing editor at [Earthjustice](www.earthjustice.org) in San Francisco and a graduate student in [UC Berkeley's MIDS program](https://www.ischool.berkeley.edu/programs/mids). He spent his first career in journalism as a reporter, foreign correspondent, editor, producer, and publishing product manager. See his [linkedin profile](www.linkedin.com/in/benarnoldy) for more.
 
 *Updated: `r Sys.Date()`*
