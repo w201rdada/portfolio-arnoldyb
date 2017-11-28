@@ -6,7 +6,7 @@ Natural language processing, crowd-sourcing, prediction analysis
 
 ## Sports opinions abound, reliability metrics are scarce
 
-My friend Mark told me recently how he had shelled out $500 for a special scouting report to help him make better draft picks in Fantasy Football. Mark is among the 60 million people in North America who are playing fantasy sports this year. We spend [$36 billion](http://fsta.org/research/industry-demographics/) each year on fantasy sports, with roughly a tenth of that going to published materials like what Mark bought. Much of that material contains predictions by pundits about how various athletes will perform in the coming week and season. 
+My friend Mark told me recently how he had shelled out $500 for a special scouting report to help improve his Fantasy Football draft picks. Mark is among the 60 million people in North America who are playing fantasy sports this year. We spend [$36 billion](http://fsta.org/research/industry-demographics/) each year on fantasy sports, with roughly a tenth of that going to published materials like what Mark bought. Much of that material contains predictions by pundits about how various athletes will perform in the coming week and season. 
 
 Mark chose the $500 pundit based on word of mouth and a sense that the information must be good if it's $500. However, Mark is doing worse this season taking the pundit's advice than last season. It's easy to laugh and dismiss all pundits as blowhards making guesses like the rest of us. But research says differently. While most forecasters are like the one Mark chose, there is a minority of forecasters who really do [outperform dart-throwing chimps](https://www.washingtonpost.com/news/wonk/wp/2016/01/04/how-to-predict-the-future-better-than-everybody-else/?utm_term=.81864c4dd7c1). 
 
@@ -19,15 +19,15 @@ Currently, fantasy gamers do have some limited ways to gauge the accuracy of for
 I am proposing a way to measure the reliability of pundits making these less structured forecasts:
 1) Use natural language processing to scan sports websites and broadcast transcripts to search for predictions. A prediction must include: a person making the prediction, a timeframe, and a binary outcome. 
 2) Show the predictions immediately to gamers, along with any reliability measure of the pundit. 
-3) When each prediction comes due, let gamers weigh in whether the prediction was correct (binary: true / false). If a critical mass of gamers agree, rate the prediction as true or false and update the pundit’s reliability score. 
+3) When each prediction comes due, let gamers weigh in whether the prediction was correct. If a critical mass of gamers agree, rate the prediction as true or false and update the pundit’s reliability score. 
 
-For example, John Doe is a pundit who has previously made one correct prediction and four incorrect predictions. He writes that Tom Brady will throw no touchdowns in next Sunday’s game. The prediction is saved to a database and shown to fantasy sports gamers who have picked Tom Brady as an athlete, along with a note that John Doe is right 20% of the time. After next week’s game, gamers are shown the prediction again to rate it true or false. Ten people rate the prediction true, no one dissents, and so John Doe’s reliability rating goes to 33%.
+For example, John Doe is a pundit who has previously made one correct prediction and four incorrect predictions. He writes that Tom Brady will throw no touchdowns in next Sunday’s game. The prediction is saved to a database and shown to fantasy sports gamers who have Brady on their team, along with a note that John Doe is right 20% of the time. After next week’s game, gamers are shown the prediction again to rate it. Ten people rate the prediction true, no one dissents, and so John Doe’s reliability rating goes to 33%.
 
 ## Clean up the information ecosystem, for sports and beyond
 
 There are many areas of life where people make predictions. Fantasy sports provides one of the easiest areas to determine pundit reliability given the abundance of predictions, their short time intervals, and the motivation of consumers like Mark to care about reliability. 
 
-But the problem remains tricky, even in this space. This model only works with predictions that can be treated as binary, so that leaves out a good deal of nuanced or quantitative forecasting. The model will have to decide how to treat conditionals such as “The U.S. economy <b>could</b> grow by 4 percent this year.” (I would argue “could” should be treated like a “will.”) 
+But the problem remains tricky, even in this space. This model only works with predictions that can be treated as binary, so that leaves out a good deal of nuanced or quantitative forecasting. The model will have to decide how to treat conditionals such as “The U.S. economy <b>could</b> grow by 4% this year.” (I would argue “could” should be treated like a “will.”) 
 
 An additional complication: If this tool grew popular, pundits might begin hedging their predictions in ways that make it harder to measure, or they may start making more “no-brainer” predictions that don’t add value. The tool may have to adapt in ways to take into account the perceived difficulty of the prediction.
 
