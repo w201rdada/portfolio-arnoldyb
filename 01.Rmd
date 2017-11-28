@@ -5,15 +5,17 @@ persuasion, sentiment analysis, natural language processing, online forums
 
 ## Moving beyond focus groups and traffic data
 
+Imagine you are tasked with writing an article to convince Americans that climate change is real. What resources would you consult before writing, and after you hit publish what would you measure to determine success? These questions are familiar to anyone working in advocacy communications. And the current answers haven't changed much from the 20th century.
 
+Organizations with significant communications budgets can afford to commission framing research. Consultants compile a set of test messages and discuss them with focus groups. If the organization has even more money, they might conduct some national polling. Those with smaller budgets try to find all this information in the public domain. Those with deeper pockets -- in this example, oil companies not environmental organizations -- have a distinct advantage. Aside from the expense, such tests take months.
 
+Determining the success of any persuasive content is tougher yet. Organizations look to pageviews, likes, shares and take action clicks on their content for indicators of what connected with an audience. But engagement metrics don't necessarily mean agreement, and even if they did, you might only have been preaching to the already converted.
 
-Imagine you make a video to convince Americans that climate change is real and the video goes viral. Let's say 10 million people view it. Were you successful? It's impossible to answer that question without knowing how many of the viewers were climate skeptics before watching and accepted climate change after watching. This problem is writ large across organizations tasked with changing public opinion. Unlike online retailers with digital shopping carts, organizations that are selling ideas don't have a "buy" button to monitor. Consequently, these organizations -- including foundations, think tanks, political parties, and special interest groups -- are spending big money on content that they only vaguely know to be effective.
-<!-- BA: should I simply whittle this down to one specific organization doing this, say Earthjustice, so I don't keep getting the frustrating comment that people aren't sure who would use this, despite iterating this list of types of organizations?-->
-<!-- Pure numbers can be justified with some heavy assumptions. Indeed big numbers become even more important the weaker the effect. // BA: I think Brooks' basic take is that "weak indicator" data is good enough at scale, and "strong indicator" data of focus groups and polls are statistically valid to extend across big populations, so that this problem is already solved in two different ways. What this misses: The "weak indicator" data are very hard for non-technical orgs to know how to interpret, and the "strong indicator" data are too inexpensive and slow for daily decisionmaking by content-makers.-->
-<!-- What kinds of buttons do they already have, or already use? // BA: there are various raw markers of engagement that are require more data to really understand what's meant by each user. But the raw markers are "likes" and other positive signs of engagement on social, site-specific reaction buttons ("Was this content helpful?"), Disqus comments, email to friend.  -->
-<!-- BA: should I draw up a research question to end this section? -->
+Could we improve on this expensive guesswork for clients like foundations, think tanks, political parties, and special interest groups by actually observing people changing their minds in online discourse?
+
 ## Using sentiment analysis 
+
+
 <!-- This section is about more than sentiment analysis. Indeed you'll want more than one method. // BA: change up header; other concepts are personality profiling, statistical experiments -->
 Current solutions to the problem include focus groups and polling. Focus groups can measure the effectiveness of specific messaging phrases on a very small group in a highly artificial setting. Polling captures self-reported shifts in broad public opinion, but can't easily pinpoint that to any given content.
 <!-- Polling could implement a pre-post within person design. // BA: Good point, so I think I need to amend this to highlight the slowness and extreme cost of this solution, as well as the bias of how people report to pollsters rather than observed response. -->
