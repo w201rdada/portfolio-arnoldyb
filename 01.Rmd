@@ -29,7 +29,7 @@ The clients for this project -- advocacy organizations -- have nothing more prec
 
 1. The solution avoids experimenting with unsuspecting users in favor of observing their expressions on public fora. The data gathering does not rely on the client to push (or take away) messages in front of users as part of a secret experiment, as Facebook did with its controversial [emotional contagion experiment](http://www.tandfonline.com/doi/abs/10.1080/1369118X.2015.1093525?journalCode=rics20). 
 
-2. The algorithm would be listening to the wisdom of the crowds, uncovering the most persuasive arguments from both published writers and millions of commentors alike. This bottom-up approach shows respect for the notion of a [democratic public square](http://courses.ischool.berkeley.edu/i218/s15/calhoun_BPSIntroduction.pdf). 
+2. The algorithm would be listening to the wisdom of the crowds, uncovering the most persuasive arguments from both published writers and millions of commenters alike. This bottom-up approach shows respect for the notion of a [democratic public square](http://courses.ischool.berkeley.edu/i218/s15/calhoun_BPSIntroduction.pdf). 
 
 3. The data gathering would be limited to public discussion forums where anonymity is greater rather than social networks where user identities and psychographics are more fully known. This should limit the ability of clients to veer into quick manipulation of [Type 1 thinking](https://ericrshelton.com/2015/12/21/type-1-and-type-2-thinking/) and keep them focused on deliberative [Type 2 thinking](https://ericrshelton.com/2015/12/21/type-1-and-type-2-thinking/).  
 
