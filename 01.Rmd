@@ -1,9 +1,9 @@
 # Winning Over Public Opinion By Measuring Minds Changed {#persuasion-metrics}
-#### Keywords
+#### Keywords {-}
 
 persuasion, sentiment analysis, natural language processing, big data, online forums
 
-## Moving beyond focus groups and traffic data
+## Moving beyond focus groups and traffic data {-}
 
 Imagine you are tasked with writing an article to convince Americans that climate change is real. What resources would you consult before writing, and after you hit publish how would you measure success? These questions are familiar and frustrating to anyone working in advocacy communications. 
 
@@ -13,7 +13,7 @@ Determining the success of any persuasive content is tougher yet. Organizations 
 
 Could we improve on this expensive guesswork for clients like foundations, think tanks, and political campaigns by actually observing people changing their minds in online discourse?
 
-## Analyzing the text of discussion forums to find mental shifts
+## Analyzing the text of discussion forums to find mental shifts {-}
 
 I am proposing a tool that builds a database of online commenters who have opined on the client's issue of interest. The database -- containing commenters, their comments, a date, and contextual relationships -- would be populated by searching discussion forums such as Reddit and Disqus through their APIs and feeds. Natural language processing techniques would be critical to identifying relevant discussions.
 
@@ -23,7 +23,7 @@ The client would receive the texts that persuaded, as well as analysis on those 
 
 The tool could also highlight mind-changing content published by the client or quoting their staff, thereby giving organizations a way to measure minds changed by their communication efforts. This, not engagement, is the true metric of interest.
 
-## Avoiding 'manipulation' by staying within ethical boundaries
+## Avoiding 'manipulation' by staying within ethical boundaries {-}
 
 The clients for this project -- advocacy organizations -- have nothing more precious than their reputation, so the project is designed to adhere to strong ethical standards. Specifically:
 

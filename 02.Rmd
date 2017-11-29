@@ -1,10 +1,10 @@
 # Helping Fantasy Sports Players Up Their Game by Grading Pundits on Reliability {#prediction-accuracy}
 
-#### Keywords
+#### Keywords {-}
 
 Natural language processing, crowd-sourcing, prediction analysis
 
-## Sports opinions abound, reliability metrics are scarce
+## Sports opinions abound, reliability metrics are scarce {-}
 
 My friend Mark told me recently how he had shelled out $500 for a special scouting report to help improve his Fantasy Football draft picks. Mark is among the 60 million people in North America who are playing fantasy sports this year. We spend [$36 billion](http://fsta.org/research/industry-demographics/) each year on fantasy sports, with roughly a tenth of that going to published materials like what Mark bought. Much of that material contains predictions by pundits about how various athletes will perform in the coming week and season. 
 
@@ -12,7 +12,7 @@ Mark chose the $500 pundit based on word of mouth and a sense that the informati
 
 Could we measure the track record of correct predictions by various pundits so that fantasy sports gamers can focus their reading on the most reliable forecasters, and ultimately, play better? 
 
-## Scrape predictions, crowdsource their accuracy
+## Scrape predictions, crowdsource their accuracy {-}
 
 Currently, fantasy gamers do have some limited ways to gauge the accuracy of forecasters. Those pundits who make systematic, numerical-only projections across a full set of athletes can be graded relatively simply -- and there are a few (self-interested) [services out there](http://fantasyfootballanalytics.net/2016/03/best-fantasy-football-projections-2016-update.html) doing so. Many predictions, however, do not fit this mold but are less systematic, focused on just one athlete, or more qualitative in nature. These predictions are often more interesting as they are offered in the course of conversations between pundits or explained in engaging writeups rather than data tables.
  
@@ -23,7 +23,7 @@ I am proposing a way to measure the reliability of pundits making these less str
 
 For example, John Doe is a pundit who has previously made one correct prediction and four incorrect predictions. He writes that Tom Brady will throw no touchdowns in next Sunday’s game. The prediction is saved to a database and shown to fantasy sports gamers who have Brady on their team, along with a note that John Doe is right 20% of the time. After next week’s game, gamers are shown the prediction again to rate it. Ten people rate the prediction true, no one dissents, and so John Doe’s reliability rating goes to 33%.
 
-## Clean up the information ecosystem, for sports and beyond
+## Clean up the information ecosystem, for sports and beyond {-}
 
 There are many areas of life where people make predictions. Fantasy sports provides one of the easiest areas to determine pundit reliability given the abundance of predictions, their short time intervals, and the motivation of consumers like Mark to care about reliability. 
 
